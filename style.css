@@ -1,0 +1,38 @@
+.header {
+  margin-left: 35%;
+  width: 500px;
+  border-bottom: 2px solid grey;
+}
+
+.header h1 {
+  margin-left: 30%;
+}
+
+form {
+  margin-top: 5%;
+  margin-left: 25%;
+}
+form p {
+  margin-left: 25%;
+}
+
+form #file_name {
+  margin-left: 25%;
+}
+
+form textarea {
+  height: 500px;
+  width: 900px;
+}
+
+.buttonz {
+  margin-left: 45%;
+  width: 100px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.buttonz p {
+  margin-left: 15%;
+}
