@@ -15,7 +15,7 @@
 
 <div class="row">
   <div class="formz">
-    <form action="functions.php" method="post">
+    <form id="formz" action="functions.php" method="post">
       <p>File name:</p>
       <input id="file_name" type="text" value="" name="name">
       <br>
@@ -25,7 +25,7 @@
       <br>
 
     </form>
-<div class="buttonz"><p>Download!</p></div>
+<div id="downloadBtn" class="buttonz"><p>Download!</p></div>
   </div>
 </div>
 <?php
@@ -33,5 +33,6 @@
 ?>
 
   </div>
+  <script src="js/ui.js"></script>
 </body>
 </html>
