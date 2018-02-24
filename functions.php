@@ -14,8 +14,8 @@ function makefilez($name,$body) {
   $data = $body;
   fwrite($file,$data);
   */
-  header("Content-type: text/plain");
-  header("Content-Disposition: attachment; filename=$name.txt");
+  header("Content-type: application/pdf");
+  header("Content-Disposition: attachment; filename=$name.pdf");
   // do your Db stuff here to get the content into $content
   echo $body;
 }

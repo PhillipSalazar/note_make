@@ -1,6 +1,7 @@
 <html>
 <head>
 <link href="style.css" type="text/css" rel="stylesheet">
+<link href="nav-box" type="text/css" rel="stylesheet">
 </head>
 <body>
   <?php
@@ -12,7 +13,10 @@
   <h1>Note Maker</h1>
 </div>
 </div>
-
+<div class="row">
+<div class="nav-box">
+</div>
+</div>
 <div class="row">
   <div class="formz">
     <form id="formz" action="functions.php" method="post">
